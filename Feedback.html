@@ -7,24 +7,18 @@
     <title>feedback form</title>
 </head>
 <body>
-    <form>
+    <form action="mailto:sunkadasameer18@gmail.com" method="post" enctype="text/plain">
         <label>Your name</label>
-        <input type="text" name="">
-        <br>
-        <label>Password</label>
-        <input type="password" name="">
-        <br>
-        <label>Feedback as a file</label>
-        <input type="file" name="">
-        <br>
-        <label>Are you a student?</label>
-        <input type="checkbox" name="">
-        <br>
+        <input type="text" name="Name"><br>
+        <label>Email</label>
+        <input type="email" name="Email"><br>
         <label>Give rating for my website</label>
-        <input type="range" name="">
+        <input type="range" name="Rating">
         <br>
-        <label>Today's date</label>
-        <input type="date" name="">
+        <label>Any feedback:</label><br>
+        <textarea name="Feedback" cols="30" rows="5"></textarea><br>
+        <label>Date of submission</label>
+        <input type="date" name="Date:">
         <br>
         <input type="submit" name="">
     </form>
